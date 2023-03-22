@@ -14,4 +14,4 @@ while True:
     # screenshot.save(filename, format="JPEG", quality=95)
     screenshot.save(os.path.join(path, filename), format="JPEG", quality=100)
     # 1분 대기
-    time.sleep(10)
+    time.sleep(30)
