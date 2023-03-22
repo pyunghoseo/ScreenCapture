@@ -13,5 +13,6 @@ while True:
     filename = f"screenshot_{time.strftime('%Y%m%d_%H%M%S')}.jpg"
     # screenshot.save(filename, format="JPEG", quality=95)
     screenshot.save(os.path.join(path, filename), format="JPEG", quality=100)
-    # 1분 대기
-    time.sleep(30)
+    # 10초 대기
+    time.sleep(10)
+
