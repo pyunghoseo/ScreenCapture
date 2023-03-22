@@ -3,3 +3,5 @@
  - 주언어는 파이썬
  - Github, Copilot, Visual Studio Code 등 사용
  
+## 사용전 설치사항
+- pip install pyautogui pillow
